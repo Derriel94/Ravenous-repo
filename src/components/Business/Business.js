@@ -15,6 +15,7 @@ const business = {
 
 class Business extends React.Component {
 	render() {
+		return (
 		<div className="Business">
 		  <div className="image-container">
 		    <img src='https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg' alt=''/>
@@ -33,7 +34,8 @@ class Business extends React.Component {
 		    </div>
 		  </div>
 		</div>
+		);
 	}
 }
 
-export default Bussiness;
+export default Business;
