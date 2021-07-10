@@ -5,7 +5,7 @@ import Business from '../Business/Business.js';
 class BusinessList extends React.Compenent {
 	render() {
 		return(
-		<div class="BusinessList">
+		<div className="BusinessList">
 			<Business />
 			<Business />
 			<Business />
