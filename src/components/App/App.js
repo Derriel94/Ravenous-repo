@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import BusinessList from '~/desktop/ravenous/src/components/BusinessList/BusinessList.js';
-import SearchBar from '~/desktop/ravenous/src/components/SearchBar/SearchBar.js';
+import BusinessList from '../BusinessList/BusinessList.js';
+import SearchBar from '../SearchBar/SearchBar.js';
 
 function App() {
   return (
